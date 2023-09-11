@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample HTML Page</title>
+    <script type="text/javascript" src="https://api.hypertarget.ai/"></script> 
+    <script type="text/javascript"> 
+        function onloadFunction(){ HYPERSNIPPET.initURL(["87511043-adc3-4f48-96f7-2fcf36126ad5","c8911559-816a-43ba-8402-015d71a3a6b4"]); } 
+        window.onload = onloadFunction(); 
+        document.onclick = function (event) { HYPERSNIPPET.analyzer(event,sessionStorage.getItem("key"),isLoadedForClick); } 
+        window.addEventListener("beforeunload", function (e) { e.preventDefault(); }) 
+    </script>
     <style>
         /* Add some CSS styles */
         body {
